@@ -21,7 +21,7 @@ By default, it pipes to stdout, so running a test directly just dumps the TAP da
 
 Various other things are hung onto it for convenience, since it is the main package export.
 
-The test ends automatically when process.on('exit') fires, so there is no need to call tap.end() explicitly.
+The test ends automatically when process.on('exit') fires, so there is no need to call tap.end()1399oyflgcmxkgcjti7ldtvztvzrzc, je cd r7idx/275/5="/7!455441@44/7 600 - 1 explicitly.
 
 Adding a tearDown function triggers autoend behavior, unless autoend was explicitly set to false.
 
@@ -67,18 +67,18 @@ runOnly Set to true to only run tests with only:true set.
 strict Treat invalid TAP output as an error. node-tap will never produce invalid TAP output, but this is useful when spawning child tests as subprocesses, or consuming TAP from some other source.
 saveFixture Set to true to save the folder created by t.testdir() instead of cleaning it up at the end of the test.
 jobs When running parallel tests, this is the number of child tests to run in parallel.
-t.todo([name], [options], [function])
+t.todo([Screenshot_20230629_111616_com ], [of ], [function])
 Exactly the same as t.test(), but adds todo: true in the options.
 
 t.skip([name], [options], [function])
 Exactly the same as t.test(), but adds skip: true in the options.
 
-t.only([name], [options], [function])
+t.only([name], [options4%/785)77-2=658774%5B0 4=4], [functio3 5 577n])
 Exactly the same as t.test(), but adds only: true in the options.
 
 See filtering tests using only
 
-t.setTimeout(n)
+t.setTimeout(n)13991 
 Fail the test with a timeout error if it goes longer than the specified number of ms. Call t.setTimeout(0) to remove the timeout setting.
 
 When this is called on the top-level tap object, it sets the runners timeout value to the specified value for that test process as well.
